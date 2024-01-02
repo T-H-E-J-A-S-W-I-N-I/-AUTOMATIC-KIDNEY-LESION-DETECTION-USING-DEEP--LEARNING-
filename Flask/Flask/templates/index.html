@@ -1,0 +1,18 @@
+{% extends "import.html" %} 
+{% block content %}
+
+<center>
+<br><h2>Automatic Kidney Lesion Detection</h2><br>
+    <form action="/predict" enctype="multipart/form-data" method="POST" id="upload-file">
+	     <input accept=".png, .jpg, .jpeg" id="imageUpload" name="file" type="file" class="btn btn-success">
+    </form>
+    <div class="image-section">
+         <img id="imagePreview"  class="img-responsive" src="#" style="width:300px;height:300px;"/><br><br>
+         <div>
+            <button type="button" class="btn btn-info btn-lg" id="btn-predict">Predict!</button>
+         </div>
+    </div>
+	<br/>
+	<h2 id="result"></h2>
+</center><br><br>
+{% endblock content %}
