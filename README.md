@@ -1,7 +1,9 @@
+# AUTOMATIC-KIDNEY-LESION-DETECTION-USING-DEEP--LEARNING
+
 A kidney lesion is a generic term to describe an area of kidney tissue that deviates from normal, healthy tissue. In simple terms, a kidney lesion is kidney tissue that is abnormal in some way. 
 There are quite a few reasons a person may develop one or more lesions on either or both of their kidneys during their lifetime.
 
-OBJECTIVE:
+## OBJECTIVE:
 
 The project focuses on these objectives, which are: 
 
@@ -15,7 +17,7 @@ The project focuses on these objectives, which are:
 
 ● The proposed deep learning architecture will be formulated for the automatic detection of kidney lesions by recognizing CT scan images.
 
-Software Requirements :
+## Software Requirements :
 
 • OS — Windows10  
 
